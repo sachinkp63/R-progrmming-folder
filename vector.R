@@ -108,3 +108,11 @@ rank(c(3,1,2))
 # Logical & Indexing
 # which() :- Indices where x is TRUE
 which(c(TRUE,FALSE,TRUE))
+# any() :- TRUE if any() are TRUE
+any(c(FALSE, TRUE))
+# all() :- TRUE if all are TRUE
+all(c(TRUE, TRUE))
+# unique() :- remove duplicates
+unique(c(11,22,3,3,4,22,11,4,6))
+# duplicated() :- Identify duplicates
+duplicated(c(1,2,3,2,2))
