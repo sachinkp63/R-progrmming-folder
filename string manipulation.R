@@ -71,6 +71,6 @@ print(str)
 # Replaces the third character of every string with % sign. 
 
 str <- c("program", "with", "new", "language")
-substr(str,2,4) <- c("*", "#")
+substr(str,2,5) <- c("*", "#")
 print(str)
 #Replaces the third character of each string alternatively with the specified symbols.
